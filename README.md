@@ -8,7 +8,7 @@ This macro was originally wrote for Steve so that he could analyze an entire dat
 
 ## Analysis
 The original code (as shown below) uses a Nested For Loop which runs each ticker independently by starting each of them at 0 and adding the total volume up as it goes through each row. This means one ticker is calculated, then the next, then the next, and so on. 
-`
+```
    '4) Loop through tickers
    For i = 0 To 11
        ticker = tickers(i)
@@ -43,12 +43,12 @@ The original code (as shown below) uses a Nested For Loop which runs each ticker
        Cells(4 + i, 3).Value = endingPrice / startingPrice - 1
 
     Next i
-`
+```
 
 The refactored code (as shown below) had several For Loops that run independent of one another starting with setting the initial volumes of each ticker to 0. Then looping all of the rows in the spreadsheet and increasing the volumes collectively within each array.
 
-`
-    'Loop for ticker volumes, set initial value to zero
+```
+   'Loop for ticker volumes, set initial value to zero
     For i = 0 To 11
         tickerVolumes(i) = 0
     Next i
@@ -76,7 +76,7 @@ The refactored code (as shown below) had several For Loops that run independent 
         End If
         
     Next i
-`
+```
 
 ## Results
 ![VBA Challenge 2017 Data](Resources/VBA_Challenge_2017_Data.png) ![2017 Original](Resources/VBA_Challenge_2017_Original.png) ![2017 Refactored](Resources/VBA_Challenge_2017.png)
@@ -93,10 +93,10 @@ Since the refactored code includes arrays instead of hardcoding rows/columns lik
 
 ## Advantages and Disadvantages to Refactoring Code
 ### Advantages
-One large advantage to refactoring code is it will make the code/program more efficient and allow for a larger diversification of data sets. If the original code was to continue being used, it would get slower and slower the larger the data sets become. By using the newer code, it will be able to handle much larger datasets more efficiently. 
+One large advantage to refactoring code is it will make the code/program more efficient and allow for a larger diversification of data sets. If the original code was to continue being used, it would get slower and slower the larger the data sets become. By using the refactored code, it will be able to handle much larger datasets more efficiently. 
 
 ### Disadvantages
-A large disadvantage of refactoring code is that one could run into multiple bugs, or make the code more complicated than it needs to be. It may be harder to understand (because it is more complicated) although it may have less lines and better notes when completed.
+A large disadvantage of refactoring code is that one could run into multiple bugs, or make the code more complicated than it needs to be. It may be harder to understand (because it is more complicated) although it may have less lines and better notes when completed. Thankfully, the refactored code wisely uses arrays instead of nested for loops which allows for a cleaner look and more simplification.
 
 ## Teammates
 Nick Foley helped me when I got stuck on portions of this project.
