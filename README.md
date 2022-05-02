@@ -8,19 +8,17 @@ The intent of this project was to refactor (restructure (the source code of an a
 
 ## Analysis and Challenges
 
-![VBA Challenge 2017 Data](Resources/VBA_Challenge_2017_Data.png)
-This is the data output from refactored macro which is identical to the original.
+![VBA Challenge 2017 Data](Resources/VBA_Challenge_2017_Data.png) ![2017 Original](Resources/VBA_Challenge_2017_Original.png) ![2017 Refactored](Resources/VBA_Challenge_2017.png)
 
-![2017 Original](Resources/VBA_Challenge_2017_Original.png) ![2017 Refactored](Resources/VBA_Challenge_2017.png)
-Original Stock Analysis run-time for sheet 2017 & Refactored Stock Analysis run-time for sheet 2017.
-
+Original Stock Analysis run-time for sheet 2017 was 
+Refactored Stock Analysis run-time for sheet 2017 was
 
 
-![VBA Challenge 2018 Data](Resources/VBA_Challenge_2018_Data.png)
-This is the data output from refactored macro which is identical to the original.
+![VBA Challenge 2018 Data](Resources/VBA_Challenge_2018_Data.png) ![2018 Original](Resources/VBA_Challenge_2018_Original1.png) ![2018 Refactored](Resources/VBA_Challenge_2018.png)
 
-![2018 Original](Resources/VBA_Challenge_2018_Original1.png) ![2018 Refactored](Resources/VBA_Challenge_2018.png)
-Original Stock Analysis run-time for sheet 2018 & Refactored Stock Analysis run-time for sheet 2018.
+
+Original Stock Analysis run-time for sheet 2018 was
+Refactored Stock Analysis run-time for sheet 2018 was
 
 
 
