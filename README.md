@@ -8,7 +8,7 @@ The intent of this project was to refactor (restructure (the source code of an a
 
 ## Analysis and Challenges
 
-![VBA Challenge 2017 Data](https://github.com/bamertz/VBA-Challenge/blob/3b424ae9197fcf99e655766fb500893bdb7c9a04/Resources/VBA_Challenge_2017_Data.png)
+![VBA Challenge 2017 Data](Resources/VBA_Challenge_2017_Data.png)
 
 ![2017 Original](https://github.com/bamertz/VBA-Challenge/blob/3b424ae9197fcf99e655766fb500893bdb7c9a04/Resources/VBA_Challenge_2017_Original.png)
 
