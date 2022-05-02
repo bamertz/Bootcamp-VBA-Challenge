@@ -14,7 +14,7 @@ The intent of this project was to refactor (restructure (the source code of an a
 
 ![2017 Refactored](Resources/VBA_Challenge_2017.png)
 
-![VBA Challenge 2018 Data](Resources/VBA_Challange_2018_Data.png)
+![VBA Challenge 2018 Data](Resources/VBA_Challenge_2018_Data.png)
 
 ![2018 Original](Resources/VBA_Challenge_2018_Original.png)
 
